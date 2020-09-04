@@ -13,9 +13,11 @@
         </e>
         <e p="Data" t="Include">
           <e p="DataContext.cs" t="Include" />
+          <e p="IAuthRepository.cs" t="Include" />
         </e>
         <e p="Model" t="Include">
           <e p="Customer.cs" t="Include" />
+          <e p="User.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

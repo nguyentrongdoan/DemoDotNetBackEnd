@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "s0VjTIx0JYMrHnsNMVtOqc8JsIx5c5igSgjL2QAjCDU4JXDTYE+IKU1uGNsMCkhaczg+lubRiJEETl1Nn9kh+g==",
+  "dgSpecHash": "dIGAX6cvDMHTszb71ngRO6efjwXZyouv1wTwd+3zsbrbSkzLU9t8DLG0GYgrwpcVvfmxIJsQotRjmQSGvEY+/g==",
   "success": true,
   "projectFilePath": "C:\\DFT\\Test\\Test\\Test.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\duyli\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.6\\microsoft.entityframeworkcore.analyzers.3.1.6.nupkg.sha512",
     "C:\\Users\\duyli\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.6\\microsoft.entityframeworkcore.design.3.1.6.nupkg.sha512",
     "C:\\Users\\duyli\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.6\\microsoft.entityframeworkcore.relational.3.1.6.nupkg.sha512",
+    "C:\\Users\\duyli\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.6\\microsoft.entityframeworkcore.tools.3.1.6.nupkg.sha512",
     "C:\\Users\\duyli\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.6\\microsoft.extensions.caching.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\duyli\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.6\\microsoft.extensions.caching.memory.3.1.6.nupkg.sha512",
     "C:\\Users\\duyli\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\microsoft.extensions.configuration.3.1.6.nupkg.sha512",
