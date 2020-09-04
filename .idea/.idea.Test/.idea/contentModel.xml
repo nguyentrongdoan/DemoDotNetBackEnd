@@ -17,6 +17,9 @@
           <e p="DataContext.cs" t="Include" />
           <e p="IAuthRepository.cs" t="Include" />
         </e>
+        <e p="Dtos" t="Include">
+          <e p="UserForRegisterDto.cs" t="Include" />
+        </e>
         <e p="Model" t="Include">
           <e p="Customer.cs" t="Include" />
           <e p="User.cs" t="Include" />
