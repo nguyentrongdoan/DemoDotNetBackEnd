@@ -24,6 +24,8 @@
         <option value="$PROJECT_DIR$/Test/Startup.cs" />
         <option value="$PROJECT_DIR$/Test/Model/User.cs" />
         <option value="$PROJECT_DIR$/Test/Data/DataContext.cs" />
+        <option value="$PROJECT_DIR$/Test/Data/IAuthRepository.cs" />
+        <option value="$PROJECT_DIR$/Test/Data/AuthRepository.cs" />
       </list>
     </option>
   </component>
@@ -79,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599195303916</updated>
-      <workItem from="1599195315048" duration="6828000" />
+      <workItem from="1599195315048" duration="10262000" />
     </task>
     <servers />
   </component>
@@ -120,13 +122,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="95" key="Rider.ProjectTemplateDialog.Size/0.0.1366.728@0.0.1366.728" timestamp="1599207062073" />
+    <state x="479" y="53" key="RiderGenerateDialog" timestamp="1599208368449">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="53" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1599208368449" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1599205733986">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599205733986" />
-    <state x="541" y="101" width="446" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599207984933">
+    <state x="918" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1599210121909">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="541" y="101" width="446" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1599207984933" />
+    <state x="918" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1599210121909" />
+    <state x="169" y="114" width="446" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599210271223">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="169" y="114" width="446" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1599210271223" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599208277975">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599208277975" />
   </component>
 </project>

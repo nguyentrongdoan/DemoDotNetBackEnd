@@ -1014,12 +1014,12 @@ BACKUP_ADMIN,BINLOG_ADMIN,CONNECTION_ADMIN,ENCRYPTION_KEY_ADMIN,GROUP_REPLICATIO
     </column>
     <column id="311" parent="297" name="passwordhash">
       <Position>3</Position>
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>binary(1)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="312" parent="297" name="passwordsalt">
+    <column id="312" parent="297" name="passwordSalt">
       <Position>4</Position>
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>binary(1)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <key id="313" parent="297" name="PRIMARY">
