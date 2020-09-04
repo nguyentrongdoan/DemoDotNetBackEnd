@@ -20,12 +20,13 @@
         <option value="$PROJECT_DIR$/Test/appsettings.json" />
         <option value="$PROJECT_DIR$/Test/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/Test/Controllers/CustomerAPI.cs" />
-        <option value="$PROJECT_DIR$/Test/Controllers/CustomerApi.cs" />
-        <option value="$PROJECT_DIR$/Test/Startup.cs" />
         <option value="$PROJECT_DIR$/Test/Model/User.cs" />
         <option value="$PROJECT_DIR$/Test/Data/DataContext.cs" />
         <option value="$PROJECT_DIR$/Test/Data/IAuthRepository.cs" />
         <option value="$PROJECT_DIR$/Test/Data/AuthRepository.cs" />
+        <option value="$PROJECT_DIR$/Test/Startup.cs" />
+        <option value="$PROJECT_DIR$/Test/Controllers/CustomerApi.cs" />
+        <option value="$PROJECT_DIR$/Test/Controllers/AuthController.cs" />
       </list>
     </option>
   </component>
@@ -81,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599195303916</updated>
-      <workItem from="1599195315048" duration="10262000" />
+      <workItem from="1599195315048" duration="11369000" />
     </task>
     <servers />
   </component>

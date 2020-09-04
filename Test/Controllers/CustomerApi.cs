@@ -5,8 +5,8 @@ using Test.Data;
 
 namespace Test.Controllers
 {
+    [Route("api/[controller]")]
     [ApiController]
-    [Route("api/customers")]
     public class CustomerApi: ControllerBase
     {
         private readonly DataContext _dataContext;

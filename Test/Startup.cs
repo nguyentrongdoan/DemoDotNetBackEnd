@@ -31,6 +31,7 @@ namespace Test
             services.AddControllers();
             services.AddDbContext<DataContext>(options =>
                 options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<IAuthRepository, AuthRepository>();
 
         }
 
