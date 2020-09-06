@@ -7,7 +7,7 @@ using Test.Model;
 
 namespace Test.Controllers
 {
-    [Microsoft.AspNetCore.Components.Route("api/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class AuthController: ControllerBase
     {
@@ -19,7 +19,7 @@ namespace Test.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
+        public async Task<IActionResult> Register( UserForRegisterDto userForRegisterDto)
         {
             userForRegisterDto.Username = userForRegisterDto.Username.ToLower();
             if (await _repository.UserExists(userForRegisterDto.Username))

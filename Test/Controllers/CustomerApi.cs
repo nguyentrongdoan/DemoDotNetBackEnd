@@ -5,7 +5,7 @@ using Test.Data;
 
 namespace Test.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/customers")]
     [ApiController]
     public class CustomerApi: ControllerBase
     {
