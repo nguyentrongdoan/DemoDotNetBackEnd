@@ -1,10 +1,12 @@
 ﻿using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Test.Data;
 
 namespace Test.Controllers
 {
+    [Authorize]
     [Route("api/customers")]
     [ApiController]
     public class CustomerApi: ControllerBase
