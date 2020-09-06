@@ -15,6 +15,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a3c37c66-0bad-4a1b-a9e6-ccfe5a34c7e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Controllers/CustomerApi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Controllers/CustomerApi.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,15 +41,15 @@
         <option value="$PROJECT_DIR$/Test/Model/User.cs" />
         <option value="$PROJECT_DIR$/Test/Data/DataContext.cs" />
         <option value="$PROJECT_DIR$/Test/Data/IAuthRepository.cs" />
-        <option value="$PROJECT_DIR$/Test/Startup.cs" />
         <option value="$PROJECT_DIR$/Test/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/Test/Controllers/CustomerApi.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/16c5505f-712a-4acf-b928-3267429b05f2/console_1.sql" />
         <option value="$PROJECT_DIR$/Test/Data/AuthRepository.cs" />
         <option value="$PROJECT_DIR$/Test/Dtos/UserForLoginDto.cs" />
         <option value="$PROJECT_DIR$/Test/appsettings.json" />
         <option value="$PROJECT_DIR$/Test/Dtos/UserForRegisterDto.cs" />
         <option value="$PROJECT_DIR$/Test/Controllers/AuthController.cs" />
+        <option value="$PROJECT_DIR$/Test/Controllers/CustomerApi.cs" />
+        <option value="$PROJECT_DIR$/Test/Startup.cs" />
       </list>
     </option>
   </component>
@@ -110,7 +112,7 @@
       <workItem from="1599231546583" duration="687000" />
       <workItem from="1599318686502" duration="389000" />
       <workItem from="1599320823062" duration="1350000" />
-      <workItem from="1599350010464" duration="9399000" />
+      <workItem from="1599350010464" duration="10701000" />
     </task>
     <servers />
   </component>

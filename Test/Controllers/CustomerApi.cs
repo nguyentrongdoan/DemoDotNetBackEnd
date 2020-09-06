@@ -7,7 +7,7 @@ using Test.Data;
 namespace Test.Controllers
 {
     [Authorize]
-    [Route("api/customers")]
+    [Route("api/[controller]")]
     [ApiController]
     public class CustomerApi: ControllerBase
     {
@@ -23,6 +23,15 @@ namespace Test.Controllers
         {
             var customers = await _dataContext.Customers.ToListAsync();
             return Ok(customers);
+        }
+        
+        //GET api/customers/2
+        [AllowAnonymous]
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetCustomer(int id)
+        {
+            var customer = await _dataContext.Customers.FirstOrDefaultAsync(x => x.Id == id);
+            return Ok(customer);
         }
     }
 }
