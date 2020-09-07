@@ -21,6 +21,9 @@
           <e p="UserForLoginDto.cs" t="Include" />
           <e p="UserForRegisterDto.cs" t="Include" />
         </e>
+        <e p="Helpers" t="Include">
+          <e p="Extensions.cs" t="Include" />
+        </e>
         <e p="Model" t="Include">
           <e p="Customer.cs" t="Include" />
           <e p="User.cs" t="Include" />

@@ -14,10 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3c37c66-0bad-4a1b-a9e6-ccfe5a34c7e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/dataSources/05a5523b-964f-4208-a72c-9a43623cc7a2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Controllers/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Controllers/CustomerApi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Controllers/CustomerApi.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.dll" afterDir="false" />
@@ -46,15 +47,15 @@
         <option value="$PROJECT_DIR$/Test/Model/User.cs" />
         <option value="$PROJECT_DIR$/Test/Data/DataContext.cs" />
         <option value="$PROJECT_DIR$/Test/Data/IAuthRepository.cs" />
-        <option value="$PROJECT_DIR$/Test/Properties/launchSettings.json" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/16c5505f-712a-4acf-b928-3267429b05f2/console_1.sql" />
         <option value="$PROJECT_DIR$/Test/Data/AuthRepository.cs" />
         <option value="$PROJECT_DIR$/Test/Dtos/UserForLoginDto.cs" />
         <option value="$PROJECT_DIR$/Test/appsettings.json" />
         <option value="$PROJECT_DIR$/Test/Dtos/UserForRegisterDto.cs" />
-        <option value="$PROJECT_DIR$/Test/Startup.cs" />
         <option value="$PROJECT_DIR$/Test/Controllers/CustomerApi.cs" />
         <option value="$PROJECT_DIR$/Test/Controllers/AuthController.cs" />
+        <option value="$PROJECT_DIR$/Test/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/Test/Startup.cs" />
       </list>
     </option>
   </component>
@@ -119,7 +120,7 @@
       <workItem from="1599320823062" duration="1350000" />
       <workItem from="1599350010464" duration="13028000" />
       <workItem from="1599403746290" duration="884000" />
-      <workItem from="1599443096632" duration="4876000" />
+      <workItem from="1599443096632" duration="6169000" />
     </task>
     <servers />
   </component>
@@ -148,22 +149,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599318822882" />
-    <state width="637" height="180" key="GridCell.Tab.0.bottom" timestamp="1599450665731">
+    <state width="637" height="180" key="GridCell.Tab.0.bottom" timestamp="1599451798693">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599450665731" />
-    <state width="637" height="180" key="GridCell.Tab.0.center" timestamp="1599450665731">
+    <state width="637" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599451798693" />
+    <state width="637" height="180" key="GridCell.Tab.0.center" timestamp="1599451798692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599450665731" />
-    <state width="637" height="180" key="GridCell.Tab.0.left" timestamp="1599450665731">
+    <state width="637" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599451798692" />
+    <state width="637" height="180" key="GridCell.Tab.0.left" timestamp="1599451798692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599450665731" />
-    <state width="637" height="180" key="GridCell.Tab.0.right" timestamp="1599450665731">
+    <state width="637" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599451798692" />
+    <state width="637" height="180" key="GridCell.Tab.0.right" timestamp="1599451798693">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599450665731" />
+    <state width="637" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599451798693" />
     <state width="1323" height="249" key="GridCell.Tab.1.bottom" timestamp="1599364807920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -244,6 +245,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599353265650" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599450971288">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599450971288" />
     <state x="918" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1599321674821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
