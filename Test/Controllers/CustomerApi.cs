@@ -18,6 +18,7 @@ namespace Test.Controllers
             _dataContext = dataContext;
         }
         //GET api/customers
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> GetCustomers()
         {
