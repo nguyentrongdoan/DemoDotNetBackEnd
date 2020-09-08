@@ -10,6 +10,7 @@
         <e p="Controllers" t="Include">
           <e p="AuthController.cs" t="Include" />
           <e p="CustomerAPI.cs" t="Include" />
+          <e p="UsersController.cs" t="Include" />
           <e p="WeatherForecastController.cs" t="Include" />
         </e>
         <e p="Data" t="Include">
