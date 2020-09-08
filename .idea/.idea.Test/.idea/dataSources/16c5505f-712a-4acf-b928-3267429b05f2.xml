@@ -4574,7 +4574,12 @@ SELECT|sys.sys_config:null
       <DataType>binary(128)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="1114" parent="364" name="PRIMARY">
+    <column id="1114" parent="364" name="dateofbirth">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="1115" parent="364" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

@@ -13,27 +13,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3c37c66-0bad-4a1b-a9e6-ccfe5a34c7e8" name="Default Changelist" comment="Shaping the data to return with DTOs">
-      <change afterPath="$PROJECT_DIR$/Test/Helpers/AutoMapperProfiles.cs" afterDir="false" />
+    <list default="true" id="a3c37c66-0bad-4a1b-a9e6-ccfe5a34c7e8" name="Default Changelist" comment="using auto Mapper step 1">
+      <change afterPath="$PROJECT_DIR$/Test/Dtos/PhotosForDetailedDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Test.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Dtos/UserForDetailedDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Dtos/UserForDetailedDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Helpers/AutoMapperProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Helpers/AutoMapperProfiles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Helpers/Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Helpers/Extensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Model/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Model/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Test.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Test.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +54,6 @@
         <option value="$PROJECT_DIR$/Test/appsettings.json" />
         <option value="$PROJECT_DIR$/Test/Dtos/UserForRegisterDto.cs" />
         <option value="$PROJECT_DIR$/Test/Controllers/CustomerApi.cs" />
-        <option value="$PROJECT_DIR$/Test/Helpers/Extensions.cs" />
         <option value="$PROJECT_DIR$/Test/Controllers/AuthController.cs" />
         <option value="$PROJECT_DIR$/Test/Data/DataContext.cs" />
         <option value="$PROJECT_DIR$/Test/Model/Photo.cs" />
@@ -72,11 +63,13 @@
         <option value="$PROJECT_DIR$/Test/Data/IDatingRepository.cs" />
         <option value="$PROJECT_DIR$/Test/Data/DatingRepository.cs" />
         <option value="$PROJECT_DIR$/Test/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/Test/Model/User.cs" />
         <option value="$PROJECT_DIR$/Test/Dtos/UserForListDto.cs" />
-        <option value="$PROJECT_DIR$/Test/Dtos/UserForDetailedDto.cs" />
         <option value="$PROJECT_DIR$/Test/Startup.cs" />
         <option value="$PROJECT_DIR$/Test/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/Test/Dtos/PhotosForDetailedDto.cs" />
+        <option value="$PROJECT_DIR$/Test/Dtos/UserForDetailedDto.cs" />
+        <option value="$PROJECT_DIR$/Test/Helpers/Extensions.cs" />
+        <option value="$PROJECT_DIR$/Test/Model/User.cs" />
         <option value="$PROJECT_DIR$/Test/Helpers/AutoMapperProfiles.cs" />
       </list>
     </option>
@@ -144,7 +137,7 @@
       <workItem from="1599403746290" duration="884000" />
       <workItem from="1599443096632" duration="10991000" />
       <workItem from="1599528840552" duration="8398000" />
-      <workItem from="1599544699780" duration="5767000" />
+      <workItem from="1599544699780" duration="8126000" />
     </task>
     <task id="LOCAL-00001" summary="cau hinh xu li loi trong Startup.cs">
       <created>1599452211628</created>
@@ -188,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599548759174</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="using auto Mapper step 1">
+      <created>1599550808091</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599550808092</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,29 +215,30 @@
     <MESSAGE value="Creating a new repository for our API" />
     <MESSAGE value="Creating the Users Controller" />
     <MESSAGE value="Shaping the data to return with DTOs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shaping the data to return with DTOs" />
+    <MESSAGE value="using auto Mapper step 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="using auto Mapper step 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599318822882">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599318822882" />
-    <state width="1323" height="376" key="GridCell.Tab.0.bottom" timestamp="1599550184790">
+    <state width="639" height="290" key="GridCell.Tab.0.bottom" timestamp="1599552668686">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599550184790" />
-    <state width="1323" height="376" key="GridCell.Tab.0.center" timestamp="1599550184790">
+    <state width="639" height="290" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599552668686" />
+    <state width="639" height="290" key="GridCell.Tab.0.center" timestamp="1599552668686">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599550184790" />
-    <state width="1323" height="376" key="GridCell.Tab.0.left" timestamp="1599550184790">
+    <state width="639" height="290" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599552668686" />
+    <state width="639" height="290" key="GridCell.Tab.0.left" timestamp="1599552668686">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599550184790" />
-    <state width="1323" height="376" key="GridCell.Tab.0.right" timestamp="1599550184790">
+    <state width="639" height="290" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599552668686" />
+    <state width="639" height="290" key="GridCell.Tab.0.right" timestamp="1599552668686">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599550184790" />
+    <state width="639" height="290" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599552668686" />
     <state width="1323" height="376" key="GridCell.Tab.1.bottom" timestamp="1599550184790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -330,18 +331,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="918" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1599321674821" />
-    <state x="518" y="135" width="446" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599546854831">
+    <state x="518" y="135" width="446" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599552836203">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="518" y="135" width="446" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1599546854831" />
+    <state x="518" y="135" width="446" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1599552836203" />
     <state x="339" y="164" key="run.anything.popup" timestamp="1599320930755">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1599320930755" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599364547542">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599552179601">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599364547542" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599552179601" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
