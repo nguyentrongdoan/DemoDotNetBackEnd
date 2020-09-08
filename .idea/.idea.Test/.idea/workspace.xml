@@ -13,31 +13,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3c37c66-0bad-4a1b-a9e6-ccfe5a34c7e8" name="Default Changelist" comment="Creating a new repository for our API">
-      <change afterPath="$PROJECT_DIR$/Test/Controllers/UsersController.cs" afterDir="false" />
+    <list default="true" id="a3c37c66-0bad-4a1b-a9e6-ccfe5a34c7e8" name="Default Changelist" comment="Creating the Users Controller">
+      <change afterPath="$PROJECT_DIR$/Test/Dtos/UserForDetailedDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Dtos/UserForListDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/dataSources/16c5505f-712a-4acf-b928-3267429b05f2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/dataSources/16c5505f-712a-4acf-b928-3267429b05f2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Model/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Model/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Test.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Test.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Test.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +59,8 @@
         <option value="$PROJECT_DIR$/Test/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/Test/Controllers/UsersController.cs" />
         <option value="$PROJECT_DIR$/Test/Model/User.cs" />
+        <option value="$PROJECT_DIR$/Test/Dtos/UserForListDto.cs" />
+        <option value="$PROJECT_DIR$/Test/Dtos/UserForDetailedDto.cs" />
       </list>
     </option>
   </component>
@@ -145,7 +127,7 @@
       <workItem from="1599403746290" duration="884000" />
       <workItem from="1599443096632" duration="10991000" />
       <workItem from="1599528840552" duration="8398000" />
-      <workItem from="1599544699780" duration="3002000" />
+      <workItem from="1599544699780" duration="3849000" />
     </task>
     <task id="LOCAL-00001" summary="cau hinh xu li loi trong Startup.cs">
       <created>1599452211628</created>
@@ -175,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599545429325</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creating the Users Controller">
+      <created>1599547896807</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599547896807</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +189,8 @@
     <MESSAGE value="cau hinh xu li loi trong Startup.cs" />
     <MESSAGE value="Seeding Data to the Database" />
     <MESSAGE value="Creating a new repository for our API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating a new repository for our API" />
+    <MESSAGE value="Creating the Users Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating the Users Controller" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599318822882">
