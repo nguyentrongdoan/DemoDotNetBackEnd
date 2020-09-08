@@ -93,3 +93,4 @@ C:\DFT\Test\Test\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\DFT\Test\Test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\DFT\Test\Test\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\DFT\Test\Test\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\DFT\Test\Test\bin\Debug\netcoreapp3.1\Data\UserSeedData.json
