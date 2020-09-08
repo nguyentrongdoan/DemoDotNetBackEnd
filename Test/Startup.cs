@@ -33,6 +33,7 @@ namespace Test
             services.AddDbContext<DataContext>(options =>
                 options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<IAuthRepository, AuthRepository>();
+            services.AddScoped<IDatingRepository, DatingRepository>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {

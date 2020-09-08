@@ -15,7 +15,9 @@
         <e p="Data" t="Include">
           <e p="AuthRepository.cs" t="Include" />
           <e p="DataContext.cs" t="Include" />
+          <e p="DatingRepository.cs" t="Include" />
           <e p="IAuthRepository.cs" t="Include" />
+          <e p="IDatingRepository.cs" t="Include" />
           <e p="Seed.cs" t="Include" />
           <e p="UserSeedData.json" t="Include" />
         </e>
