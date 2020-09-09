@@ -4516,7 +4516,7 @@ SELECT|sys.sys_config:null
     </column>
     <column id="1102" parent="363" name="url">
       <Position>2</Position>
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>varchar(1000)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="1103" parent="363" name="description">
@@ -4579,7 +4579,27 @@ SELECT|sys.sys_config:null
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="1115" parent="364" name="PRIMARY">
+    <column id="1115" parent="364" name="introduction">
+      <Position>6</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="1116" parent="364" name="lookingfor">
+      <Position>7</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="1117" parent="364" name="interests">
+      <Position>8</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="1118" parent="364" name="city">
+      <Position>9</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="1119" parent="364" name="country">
+      <Position>10</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <key id="1120" parent="364" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

@@ -9,17 +9,32 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3c37c66-0bad-4a1b-a9e6-ccfe5a34c7e8" name="Default Changelist" comment="using auto Mapper step 1">
-      <change afterPath="$PROJECT_DIR$/Test/Dtos/PhotosForDetailedDto.cs" afterDir="false" />
+    <list default="true" id="a3c37c66-0bad-4a1b-a9e6-ccfe5a34c7e8" name="Default Changelist" comment=" Using AutoMapper Part 2">
+      <change afterPath="$PROJECT_DIR$/Test/Dtos/UserForUpdateDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/dataSources/16c5505f-712a-4acf-b928-3267429b05f2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/dataSources/16c5505f-712a-4acf-b928-3267429b05f2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Dtos/UserForDetailedDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Dtos/UserForDetailedDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Controllers/UsersController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Helpers/AutoMapperProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Helpers/AutoMapperProfiles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Helpers/Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Helpers/Extensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Model/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Model/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.pdb" afterDir="false" />
@@ -40,6 +55,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C8217C-B733-4D02-8D35-584ABCC8BFDB/F3/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AABF22C8-0443-4F75-A371-6B76C765A950/95/IMapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4065B38D-0F9F-44D9-8F53-F4C9102AF396/262/AsyncValueTaskMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -65,12 +81,13 @@
         <option value="$PROJECT_DIR$/Test/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/Test/Dtos/UserForListDto.cs" />
         <option value="$PROJECT_DIR$/Test/Startup.cs" />
-        <option value="$PROJECT_DIR$/Test/Controllers/UsersController.cs" />
         <option value="$PROJECT_DIR$/Test/Dtos/PhotosForDetailedDto.cs" />
         <option value="$PROJECT_DIR$/Test/Dtos/UserForDetailedDto.cs" />
         <option value="$PROJECT_DIR$/Test/Helpers/Extensions.cs" />
-        <option value="$PROJECT_DIR$/Test/Model/User.cs" />
+        <option value="$PROJECT_DIR$/Test/Dtos/UserForUpdateDto.cs" />
         <option value="$PROJECT_DIR$/Test/Helpers/AutoMapperProfiles.cs" />
+        <option value="$PROJECT_DIR$/Test/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/Test/Model/User.cs" />
       </list>
     </option>
   </component>
@@ -137,7 +154,11 @@
       <workItem from="1599403746290" duration="884000" />
       <workItem from="1599443096632" duration="10991000" />
       <workItem from="1599528840552" duration="8398000" />
-      <workItem from="1599544699780" duration="8126000" />
+      <workItem from="1599544699780" duration="11061000" />
+      <workItem from="1599614787790" duration="299000" />
+      <workItem from="1599615393031" duration="164000" />
+      <workItem from="1599615848900" duration="1304000" />
+      <workItem from="1599633156255" duration="5476000" />
     </task>
     <task id="LOCAL-00001" summary="cau hinh xu li loi trong Startup.cs">
       <created>1599452211628</created>
@@ -188,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599550808092</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" Using AutoMapper Part 2">
+      <created>1599553060202</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599553060202</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +229,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -216,93 +256,98 @@
     <MESSAGE value="Creating the Users Controller" />
     <MESSAGE value="Shaping the data to return with DTOs" />
     <MESSAGE value="using auto Mapper step 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="using auto Mapper step 1" />
+    <MESSAGE value=" Using AutoMapper Part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Using AutoMapper Part 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599318822882">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599318822882" />
-    <state width="639" height="290" key="GridCell.Tab.0.bottom" timestamp="1599552668686">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1599553583594">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="639" height="290" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599552668686" />
-    <state width="639" height="290" key="GridCell.Tab.0.center" timestamp="1599552668686">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1599553583594" />
+    <state width="1323" height="290" key="GridCell.Tab.0.bottom" timestamp="1599646125797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="639" height="290" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599552668686" />
-    <state width="639" height="290" key="GridCell.Tab.0.left" timestamp="1599552668686">
+    <state width="1323" height="290" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599646125797" />
+    <state width="1323" height="290" key="GridCell.Tab.0.center" timestamp="1599646125797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="639" height="290" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599552668686" />
-    <state width="639" height="290" key="GridCell.Tab.0.right" timestamp="1599552668686">
+    <state width="1323" height="290" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599646125797" />
+    <state width="1323" height="290" key="GridCell.Tab.0.left" timestamp="1599646125796">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="639" height="290" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599552668686" />
-    <state width="1323" height="376" key="GridCell.Tab.1.bottom" timestamp="1599550184790">
+    <state width="1323" height="290" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599646125796" />
+    <state width="1323" height="290" key="GridCell.Tab.0.right" timestamp="1599646125797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599550184790" />
-    <state width="1323" height="376" key="GridCell.Tab.1.center" timestamp="1599550184790">
+    <state width="1323" height="290" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599646125797" />
+    <state width="1323" height="329" key="GridCell.Tab.1.bottom" timestamp="1599646123925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599550184790" />
-    <state width="1323" height="376" key="GridCell.Tab.1.left" timestamp="1599550184790">
+    <state width="1323" height="329" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599646123925" />
+    <state width="1323" height="329" key="GridCell.Tab.1.center" timestamp="1599646123925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599550184790" />
-    <state width="1323" height="376" key="GridCell.Tab.1.right" timestamp="1599550184790">
+    <state width="1323" height="329" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599646123925" />
+    <state width="1323" height="329" key="GridCell.Tab.1.left" timestamp="1599646123925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599550184790" />
-    <state width="1323" height="376" key="GridCell.Tab.2.bottom" timestamp="1599550184790">
+    <state width="1323" height="329" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599646123925" />
+    <state width="1323" height="329" key="GridCell.Tab.1.right" timestamp="1599646123925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599550184790" />
-    <state width="1323" height="376" key="GridCell.Tab.2.center" timestamp="1599550184790">
+    <state width="1323" height="329" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599646123925" />
+    <state width="1323" height="329" key="GridCell.Tab.2.bottom" timestamp="1599646123926">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1599550184790" />
-    <state width="1323" height="376" key="GridCell.Tab.2.left" timestamp="1599550184790">
+    <state width="1323" height="329" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599646123926" />
+    <state width="1323" height="329" key="GridCell.Tab.2.center" timestamp="1599646123925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1599550184790" />
-    <state width="1323" height="376" key="GridCell.Tab.2.right" timestamp="1599550184790">
+    <state width="1323" height="329" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1599646123925" />
+    <state width="1323" height="329" key="GridCell.Tab.2.left" timestamp="1599646123925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1599550184790" />
-    <state width="1323" height="376" key="GridCell.Tab.3.bottom" timestamp="1599550184791">
+    <state width="1323" height="329" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1599646123925" />
+    <state width="1323" height="329" key="GridCell.Tab.2.right" timestamp="1599646123925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599550184791" />
-    <state width="1323" height="376" key="GridCell.Tab.3.center" timestamp="1599550184791">
+    <state width="1323" height="329" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1599646123925" />
+    <state width="1323" height="329" key="GridCell.Tab.3.bottom" timestamp="1599646123926">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1599550184791" />
-    <state width="1323" height="376" key="GridCell.Tab.3.left" timestamp="1599550184791">
+    <state width="1323" height="329" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599646123926" />
+    <state width="1323" height="329" key="GridCell.Tab.3.center" timestamp="1599646123926">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1599550184791" />
-    <state width="1323" height="376" key="GridCell.Tab.3.right" timestamp="1599550184791">
+    <state width="1323" height="329" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1599646123926" />
+    <state width="1323" height="329" key="GridCell.Tab.3.left" timestamp="1599646123926">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1599550184791" />
-    <state width="1323" height="376" key="GridCell.Tab.4.bottom" timestamp="1599550184791">
+    <state width="1323" height="329" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1599646123926" />
+    <state width="1323" height="329" key="GridCell.Tab.3.right" timestamp="1599646123926">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.4.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599550184791" />
-    <state width="1323" height="376" key="GridCell.Tab.4.center" timestamp="1599550184791">
+    <state width="1323" height="329" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1599646123926" />
+    <state width="1323" height="329" key="GridCell.Tab.4.bottom" timestamp="1599646123927">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.4.center/0.0.1366.728@0.0.1366.728" timestamp="1599550184791" />
-    <state width="1323" height="376" key="GridCell.Tab.4.left" timestamp="1599550184791">
+    <state width="1323" height="329" key="GridCell.Tab.4.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599646123927" />
+    <state width="1323" height="329" key="GridCell.Tab.4.center" timestamp="1599646123926">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.4.left/0.0.1366.728@0.0.1366.728" timestamp="1599550184791" />
-    <state width="1323" height="376" key="GridCell.Tab.4.right" timestamp="1599550184791">
+    <state width="1323" height="329" key="GridCell.Tab.4.center/0.0.1366.728@0.0.1366.728" timestamp="1599646123926" />
+    <state width="1323" height="329" key="GridCell.Tab.4.left" timestamp="1599646123926">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="376" key="GridCell.Tab.4.right/0.0.1366.728@0.0.1366.728" timestamp="1599550184791" />
+    <state width="1323" height="329" key="GridCell.Tab.4.left/0.0.1366.728@0.0.1366.728" timestamp="1599646123926" />
+    <state width="1323" height="329" key="GridCell.Tab.4.right" timestamp="1599646123927">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="329" key="GridCell.Tab.4.right/0.0.1366.728@0.0.1366.728" timestamp="1599646123927" />
     <state width="200" height="455" key="HiddenNamespacesPopup" timestamp="1599320886850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -319,10 +364,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599532942889" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599450971288">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599553490046">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599450971288" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599553490046" />
     <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1599550020646">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -331,10 +376,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="918" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1599321674821" />
-    <state x="518" y="135" width="446" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599552836203">
+    <state x="55" y="128" width="446" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599645149281">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="518" y="135" width="446" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1599552836203" />
+    <state x="55" y="128" width="446" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1599645149281" />
     <state x="339" y="164" key="run.anything.popup" timestamp="1599320930755">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -365,6 +410,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Test/Controllers/UsersController.cs</url>
+          <line>47</line>
+          <properties documentPath="C:\DFT\Test\Test\Controllers\UsersController.cs" initialLine="47">
+            <startOffsets>
+              <option value="1445" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1494" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
