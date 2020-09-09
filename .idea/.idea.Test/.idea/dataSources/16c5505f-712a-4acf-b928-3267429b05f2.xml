@@ -4539,67 +4539,71 @@ SELECT|sys.sys_config:null
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="1107" parent="363" name="photos_users_id_fk">
+    <column id="1107" parent="363" name="publicid">
+      <Position>7</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <index id="1108" parent="363" name="photos_users_id_fk">
       <ColNames>userid</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="1108" parent="363" name="PRIMARY">
+    <key id="1109" parent="363" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="1109" parent="363" name="photos_users_id_fk">
+    <foreign-key id="1110" parent="363" name="photos_users_id_fk">
       <ColNames>userid</ColNames>
       <RefTableName>users</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="1110" parent="364" name="id">
+    <column id="1111" parent="364" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="1111" parent="364" name="username">
+    <column id="1112" parent="364" name="username">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1112" parent="364" name="passwordhash">
+    <column id="1113" parent="364" name="passwordhash">
       <Position>3</Position>
       <DataType>binary(128)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1113" parent="364" name="passwordsalt">
+    <column id="1114" parent="364" name="passwordsalt">
       <Position>4</Position>
       <DataType>binary(128)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1114" parent="364" name="dateofbirth">
+    <column id="1115" parent="364" name="dateofbirth">
       <Position>5</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="1115" parent="364" name="introduction">
+    <column id="1116" parent="364" name="introduction">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="1116" parent="364" name="lookingfor">
+    <column id="1117" parent="364" name="lookingfor">
       <Position>7</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="1117" parent="364" name="interests">
+    <column id="1118" parent="364" name="interests">
       <Position>8</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="1118" parent="364" name="city">
+    <column id="1119" parent="364" name="city">
       <Position>9</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="1119" parent="364" name="country">
+    <column id="1120" parent="364" name="country">
       <Position>10</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <key id="1120" parent="364" name="PRIMARY">
+    <key id="1121" parent="364" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

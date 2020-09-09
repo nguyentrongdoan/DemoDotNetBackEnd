@@ -30,6 +30,7 @@ namespace Test
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors();
+            services.Configure<CloudinarySettings>(Configuration.GetSection("CloudinarySettings"));
             services.AddAutoMapper(typeof(DatingRepository).Assembly);
             services.AddControllers().AddNewtonsoftJson();
             services.AddDbContext<DataContext>(options =>

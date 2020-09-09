@@ -32,6 +32,7 @@
         </e>
         <e p="Helpers" t="Include">
           <e p="AutoMapperProfiles.cs" t="Include" />
+          <e p="CloudinarySettings.cs" t="Include" />
           <e p="Extensions.cs" t="Include" />
         </e>
         <e p="Model" t="Include">
