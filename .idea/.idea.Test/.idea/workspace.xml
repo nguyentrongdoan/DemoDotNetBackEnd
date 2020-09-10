@@ -28,22 +28,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3c37c66-0bad-4a1b-a9e6-ccfe5a34c7e8" name="Default Changelist" comment="Finishing off the Member edit&#10;component">
-      <change afterPath="$PROJECT_DIR$/Test/Helpers/CloudinarySettings.cs" afterDir="false" />
+    <list default="true" id="a3c37c66-0bad-4a1b-a9e6-ccfe5a34c7e8" name="Default Changelist" comment="Using Cloudinary as a photo storage&#10;solution">
+      <change afterPath="$PROJECT_DIR$/Test/Controllers/PhotosController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Dtos/PhotoForCreationDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/dataSources/16c5505f-712a-4acf-b928-3267429b05f2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/dataSources/16c5505f-712a-4acf-b928-3267429b05f2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Model/Photo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Model/Photo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Test.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Test.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Test.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +50,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C8217C-B733-4D02-8D35-584ABCC8BFDB/F3/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AABF22C8-0443-4F75-A371-6B76C765A950/95/IMapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4065B38D-0F9F-44D9-8F53-F4C9102AF396/262/AsyncValueTaskMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9481D310-60CF-4AB5-BB18-EE2195E361A5/D/AnyAll.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -87,11 +78,13 @@
         <option value="$PROJECT_DIR$/Test/Dtos/UserForUpdateDto.cs" />
         <option value="$PROJECT_DIR$/Test/Helpers/AutoMapperProfiles.cs" />
         <option value="$PROJECT_DIR$/Test/Controllers/UsersController.cs" />
-        <option value="$PROJECT_DIR$/Test/Model/User.cs" />
         <option value="$PROJECT_DIR$/Test/appsettings.json" />
         <option value="$PROJECT_DIR$/Test/Helpers/CloudinarySettings.cs" />
         <option value="$PROJECT_DIR$/Test/Startup.cs" />
         <option value="$PROJECT_DIR$/Test/Model/Photo.cs" />
+        <option value="$PROJECT_DIR$/Test/Dtos/PhotoForCreationDto.cs" />
+        <option value="$PROJECT_DIR$/Test/Model/User.cs" />
+        <option value="$PROJECT_DIR$/Test/Controllers/PhotosController.cs" />
       </list>
     </option>
   </component>
@@ -163,7 +156,8 @@
       <workItem from="1599615393031" duration="164000" />
       <workItem from="1599615848900" duration="1304000" />
       <workItem from="1599633156255" duration="6166000" />
-      <workItem from="1599664257100" duration="1051000" />
+      <workItem from="1599664257100" duration="1932000" />
+      <workItem from="1599701125747" duration="4923000" />
     </task>
     <task id="LOCAL-00001" summary="cau hinh xu li loi trong Startup.cs">
       <created>1599452211628</created>
@@ -228,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599646517959</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Using Cloudinary as a photo storage&#10;solution">
+      <created>1599665325597</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599665325597</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +271,8 @@
     <MESSAGE value="using auto Mapper step 1" />
     <MESSAGE value=" Using AutoMapper Part 2" />
     <MESSAGE value="Finishing off the Member edit&#10;component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing off the Member edit&#10;component" />
+    <MESSAGE value="Using Cloudinary as a photo storage&#10;solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using Cloudinary as a photo storage&#10;solution" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599318822882">
@@ -369,10 +371,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="95" key="Rider.ProjectTemplateDialog.Size/0.0.1366.728@0.0.1366.728" timestamp="1599207062073" />
-    <state x="479" y="53" key="RiderGenerateDialog" timestamp="1599550471123">
+    <state x="479" y="53" key="RiderGenerateDialog" timestamp="1599703077647">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="479" y="53" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1599550471123" />
+    <state x="479" y="53" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1599703077647" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1599532942889">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -389,10 +391,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="918" y="251" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1599321674821" />
-    <state x="55" y="128" width="446" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599645149281">
+    <state x="55" y="128" width="446" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599665045914">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="55" y="128" width="446" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1599645149281" />
+    <state x="55" y="128" width="446" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1599665045914" />
     <state x="339" y="164" key="run.anything.popup" timestamp="1599320930755">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
