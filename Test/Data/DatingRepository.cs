@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Test.Model;
@@ -45,6 +46,11 @@ namespace Test.Data
             var photo = await _context.Photos.FirstOrDefaultAsync(p => p.Id == id);
 
             return photo;
+        }
+
+        public async Task<Photo> GetMainPhotoForUser(int userId)
+        {
+            return await _context.Photos.Where(u => u.UserId == userId).FirstOrDefaultAsync(p => p.IsMain);
         }
     }
 }
