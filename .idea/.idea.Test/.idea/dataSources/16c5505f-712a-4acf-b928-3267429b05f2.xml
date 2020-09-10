@@ -4522,7 +4522,6 @@ SELECT|sys.sys_config:null
     <column id="1103" parent="363" name="description">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
     <column id="1104" parent="363" name="dateadded">
       <Position>4</Position>

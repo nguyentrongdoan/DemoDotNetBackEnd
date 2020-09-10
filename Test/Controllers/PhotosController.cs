@@ -21,21 +21,21 @@ namespace Test.Controllers
     {
         private readonly IDatingRepository _repository;
         private readonly IMapper _mapper;
-        private readonly IOptions<CloudinarySettings> _cloudingConfig;
+        // private readonly IOptions<CloudinarySettings> _cloudinaryConfig;
         private readonly Cloudinary _cloudinary;
 
         public PhotosController(IDatingRepository repository,
             IMapper mapper,
-            IOptions<CloudinarySettings> cloudingConfig)
+            IOptions<CloudinarySettings> cloudinaryConfig)
         {
             _repository = repository;
             _mapper = mapper;
-            _cloudingConfig = cloudingConfig;
+            var cloudinaryConfig1 = cloudinaryConfig;
             
-            Account account = new Account(
-                _cloudingConfig.Value.CloudName,
-                _cloudingConfig.Value.ApiKey,
-                _cloudingConfig.Value.ApiSecret
+            var account = new Account(
+                cloudinaryConfig1.Value.CloudName,
+                cloudinaryConfig1.Value.ApiKey,
+                cloudinaryConfig1.Value.ApiSecret
                 );
             
             _cloudinary = new Cloudinary(account);
@@ -53,7 +53,7 @@ namespace Test.Controllers
         
 
         [HttpPost]
-        public async Task<IActionResult> AddPhotoForUser(int userId, PhotoForCreationDto photoForCreationDto)
+        public async Task<IActionResult> AddPhotoForUser(int userId, [FromForm]PhotoForCreationDto photoForCreationDto)
         {
             if (userId != int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value))
             {
@@ -64,7 +64,8 @@ namespace Test.Controllers
 
             var file = photoForCreationDto.File;
 
-            var imageUploadResult = new ImageUploadResult();
+            // var uploadResult = new ImageUploadResult();
+            var uploadResult = new ImageUploadResult();
 
             if (file.Length > 0)
             {
@@ -74,11 +75,12 @@ namespace Test.Controllers
                     File = new FileDescription(file.Name, stream),
                     Transformation = new Transformation().Width(500).Height(500).Crop("fill").Gravity("face")
                 };
-                _cloudinary.Upload(uploadParams);
+                uploadResult = _cloudinary.Upload(uploadParams);
+                // _cloudinary.Upload(uploadParams);
             }
 
-            photoForCreationDto.Url = imageUploadResult.Uri.ToString();
-            photoForCreationDto.PublicId = imageUploadResult.PublicId;
+            photoForCreationDto.Url = uploadResult.Uri.ToString();
+            photoForCreationDto.PublicId = uploadResult.PublicId;
 
             var photo = _mapper.Map<Photo>(photoForCreationDto);
 
@@ -88,13 +90,18 @@ namespace Test.Controllers
             }
             userFromRepo.Photos.Add(photo);
 
-            if (await _repository.SaveAll())
-            {
-                var photoToReturn = _mapper.Map<PhotoForReturnDto>(photo);
-                return CreatedAtRoute("GetPhoto", new {id = photo.Id}, photoToReturn);
-            }
-            
-            return BadRequest("Could not add the photo");
+            // if (await _repository.SaveAll())
+            // {
+            //     var photoToReturn = _mapper.Map<PhotoForReturnDto>(photo);
+            //     return CreatedAtRoute("GetPhoto", new {userId = userId, id = photo.Id}, photoToReturn);
+            // }
+            //
+            // return BadRequest("Could not add the photo");
+
+            if (!await _repository.SaveAll()) return BadRequest("Could not add the photo");
+            var photoToReturn = _mapper.Map<PhotoForReturnDto>(photo);
+            return CreatedAtRoute("GetPhoto", new {userId, id = photo.Id}, photoToReturn);
+
         }
     }
 }
