@@ -6,7 +6,6 @@ using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Internal;
 using Microsoft.Extensions.Options;
 using Test.Data;
 using Test.Dtos;
@@ -23,7 +22,7 @@ namespace Test.Controllers
         private readonly IDatingRepository _repository;
         private readonly IMapper _mapper;
         private readonly IOptions<CloudinarySettings> _cloudingConfig;
-        private Cloudinary _cloudinary;
+        private readonly Cloudinary _cloudinary;
 
         public PhotosController(IDatingRepository repository,
             IMapper mapper,
@@ -41,6 +40,17 @@ namespace Test.Controllers
             
             _cloudinary = new Cloudinary(account);
         }
+
+        [HttpGet("{id}", Name = "GetPhoto")]
+        public async Task<IActionResult> GetPhoto(int id)
+        {
+            var photoFromRepo = await _repository.GetPhoto(id);
+
+            var photo = _mapper.Map<PhotoForReturnDto>(photoFromRepo);
+
+            return Ok(photo);
+        }
+        
 
         [HttpPost]
         public async Task<IActionResult> AddPhotoForUser(int userId, PhotoForCreationDto photoForCreationDto)
@@ -80,9 +90,10 @@ namespace Test.Controllers
 
             if (await _repository.SaveAll())
             {
-                return Ok();
+                var photoToReturn = _mapper.Map<PhotoForReturnDto>(photo);
+                return CreatedAtRoute("GetPhoto", new {id = photo.Id}, photoToReturn);
             }
-
+            
             return BadRequest("Could not add the photo");
         }
     }

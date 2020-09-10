@@ -25,6 +25,7 @@
         </e>
         <e p="Dtos" t="Include">
           <e p="PhotoForCreationDto.cs" t="Include" />
+          <e p="PhotoForReturnDto.cs" t="Include" />
           <e p="PhotosForDetailedDto.cs" t="Include" />
           <e p="UserForDetailedDto.cs" t="Include" />
           <e p="UserForListDto.cs" t="Include" />
