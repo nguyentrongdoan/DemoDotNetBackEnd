@@ -28,10 +28,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3c37c66-0bad-4a1b-a9e6-ccfe5a34c7e8" name="Default Changelist" comment="Adding the Set Main photo&#10;functionality to the API">
+    <list default="true" id="a3c37c66-0bad-4a1b-a9e6-ccfe5a34c7e8" name="Default Changelist" comment="Adding the main photo to the Nav&#10;bar">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Controllers/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Data/AuthRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/AuthRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Controllers/PhotosController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Controllers/PhotosController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.dll" afterDir="false" />
@@ -85,9 +84,9 @@
         <option value="$PROJECT_DIR$/Test/Startup.cs" />
         <option value="$PROJECT_DIR$/Test/Data/IDatingRepository.cs" />
         <option value="$PROJECT_DIR$/Test/Data/DatingRepository.cs" />
-        <option value="$PROJECT_DIR$/Test/Controllers/PhotosController.cs" />
         <option value="$PROJECT_DIR$/Test/Controllers/AuthController.cs" />
         <option value="$PROJECT_DIR$/Test/Data/AuthRepository.cs" />
+        <option value="$PROJECT_DIR$/Test/Controllers/PhotosController.cs" />
       </list>
     </option>
   </component>
@@ -162,7 +161,7 @@
       <workItem from="1599664257100" duration="1932000" />
       <workItem from="1599701125747" duration="24340000" />
       <workItem from="1599746682865" duration="4556000" />
-      <workItem from="1599788824948" duration="3599000" />
+      <workItem from="1599788824948" duration="6132000" />
     </task>
     <task id="LOCAL-00001" summary="cau hinh xu li loi trong Startup.cs">
       <created>1599452211628</created>
@@ -269,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599751367811</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Adding the main photo to the Nav&#10;bar">
+      <created>1599793698576</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1599793698576</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +322,8 @@
     <MESSAGE value="Creating the Photos controller Part 2" />
     <MESSAGE value="Testing the Photo upload with&#10;Postman" />
     <MESSAGE value="Adding the Set Main photo&#10;functionality to the API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the Set Main photo&#10;functionality to the API" />
+    <MESSAGE value="Adding the main photo to the Nav&#10;bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the main photo to the Nav&#10;bar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599318822882">
@@ -331,38 +338,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1599553583594" />
-    <state width="1323" height="119" key="GridCell.Tab.0.bottom" timestamp="1599792389838">
+    <state width="637" height="203" key="GridCell.Tab.0.bottom" timestamp="1599796921549">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="119" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599792389838" />
-    <state width="1323" height="119" key="GridCell.Tab.0.center" timestamp="1599792389838">
+    <state width="637" height="203" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599796921549" />
+    <state width="637" height="203" key="GridCell.Tab.0.center" timestamp="1599796921548">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="119" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599792389838" />
-    <state width="1323" height="119" key="GridCell.Tab.0.left" timestamp="1599792389838">
+    <state width="637" height="203" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599796921548" />
+    <state width="637" height="203" key="GridCell.Tab.0.left" timestamp="1599796921548">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="119" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599792389838" />
-    <state width="1323" height="119" key="GridCell.Tab.0.right" timestamp="1599792389838">
+    <state width="637" height="203" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599796921548" />
+    <state width="637" height="203" key="GridCell.Tab.0.right" timestamp="1599796921548">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="119" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599792389838" />
-    <state width="1323" height="204" key="GridCell.Tab.1.bottom" timestamp="1599735002027">
+    <state width="637" height="203" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599796921548" />
+    <state width="637" height="203" key="GridCell.Tab.1.bottom" timestamp="1599797062967">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599735002027" />
-    <state width="1323" height="204" key="GridCell.Tab.1.center" timestamp="1599735002027">
+    <state width="637" height="203" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599797062967" />
+    <state width="637" height="203" key="GridCell.Tab.1.center" timestamp="1599797062966">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599735002027" />
-    <state width="1323" height="204" key="GridCell.Tab.1.left" timestamp="1599735002027">
+    <state width="637" height="203" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599797062966" />
+    <state width="637" height="203" key="GridCell.Tab.1.left" timestamp="1599797062966">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599735002027" />
-    <state width="1323" height="204" key="GridCell.Tab.1.right" timestamp="1599735002027">
+    <state width="637" height="203" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599797062966" />
+    <state width="637" height="203" key="GridCell.Tab.1.right" timestamp="1599797062966">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599735002027" />
+    <state width="637" height="203" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599797062966" />
     <state width="1323" height="204" key="GridCell.Tab.2.bottom" timestamp="1599735002027">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -456,17 +463,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Test/Data/DatingRepository.cs</url>
-          <line>38</line>
-          <properties documentPath="C:\DFT\Test\Test\Data\DatingRepository.cs" initialLine="37">
+          <url>file://$PROJECT_DIR$/Test/Controllers/PhotosController.cs</url>
+          <line>143</line>
+          <properties documentPath="C:\DFT\Test\Test\Controllers\PhotosController.cs" initialLine="143">
             <startOffsets>
-              <option value="966" />
+              <option value="4795" />
             </startOffsets>
             <endOffsets>
-              <option value="967" />
+              <option value="4796" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
