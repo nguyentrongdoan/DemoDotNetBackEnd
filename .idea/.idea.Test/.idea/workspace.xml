@@ -28,11 +28,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3c37c66-0bad-4a1b-a9e6-ccfe5a34c7e8" name="Default Changelist" comment="Testing the Photo upload with&#10;Postman">
+    <list default="true" id="a3c37c66-0bad-4a1b-a9e6-ccfe5a34c7e8" name="Default Changelist" comment="Adding the Set Main photo&#10;functionality to the API">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Controllers/PhotosController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Controllers/PhotosController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Data/DatingRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/DatingRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Data/IDatingRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/IDatingRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Data/AuthRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/AuthRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp3.1/Test.dll" afterDir="false" />
@@ -62,11 +61,9 @@
         <option value="$PROJECT_DIR$/Test/Controllers/CustomerAPI.cs" />
         <option value="$PROJECT_DIR$/Test/Data/IAuthRepository.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/16c5505f-712a-4acf-b928-3267429b05f2/console_1.sql" />
-        <option value="$PROJECT_DIR$/Test/Data/AuthRepository.cs" />
         <option value="$PROJECT_DIR$/Test/Dtos/UserForLoginDto.cs" />
         <option value="$PROJECT_DIR$/Test/Dtos/UserForRegisterDto.cs" />
         <option value="$PROJECT_DIR$/Test/Controllers/CustomerApi.cs" />
-        <option value="$PROJECT_DIR$/Test/Controllers/AuthController.cs" />
         <option value="$PROJECT_DIR$/Test/Data/DataContext.cs" />
         <option value="$PROJECT_DIR$/Test/Data/UserSeedData.json" />
         <option value="$PROJECT_DIR$/Test/Data/Seed.cs" />
@@ -89,6 +86,8 @@
         <option value="$PROJECT_DIR$/Test/Data/IDatingRepository.cs" />
         <option value="$PROJECT_DIR$/Test/Data/DatingRepository.cs" />
         <option value="$PROJECT_DIR$/Test/Controllers/PhotosController.cs" />
+        <option value="$PROJECT_DIR$/Test/Controllers/AuthController.cs" />
+        <option value="$PROJECT_DIR$/Test/Data/AuthRepository.cs" />
       </list>
     </option>
   </component>
@@ -162,7 +161,8 @@
       <workItem from="1599633156255" duration="6166000" />
       <workItem from="1599664257100" duration="1932000" />
       <workItem from="1599701125747" duration="24340000" />
-      <workItem from="1599746682865" duration="3906000" />
+      <workItem from="1599746682865" duration="4556000" />
+      <workItem from="1599788824948" duration="3599000" />
     </task>
     <task id="LOCAL-00001" summary="cau hinh xu li loi trong Startup.cs">
       <created>1599452211628</created>
@@ -262,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599727233685</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Adding the Set Main photo&#10;functionality to the API">
+      <created>1599751367811</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599751367811</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +315,8 @@
     <MESSAGE value="Creating the Photos controller Part 1" />
     <MESSAGE value="Creating the Photos controller Part 2" />
     <MESSAGE value="Testing the Photo upload with&#10;Postman" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing the Photo upload with&#10;Postman" />
+    <MESSAGE value="Adding the Set Main photo&#10;functionality to the API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the Set Main photo&#10;functionality to the API" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599318822882">
@@ -323,22 +331,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1599553583594" />
-    <state width="639" height="123" key="GridCell.Tab.0.bottom" timestamp="1599751037894">
+    <state width="1323" height="119" key="GridCell.Tab.0.bottom" timestamp="1599792389838">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="639" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599751037894" />
-    <state width="639" height="123" key="GridCell.Tab.0.center" timestamp="1599751037894">
+    <state width="1323" height="119" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599792389838" />
+    <state width="1323" height="119" key="GridCell.Tab.0.center" timestamp="1599792389838">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="639" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599751037894" />
-    <state width="639" height="123" key="GridCell.Tab.0.left" timestamp="1599751037893">
+    <state width="1323" height="119" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599792389838" />
+    <state width="1323" height="119" key="GridCell.Tab.0.left" timestamp="1599792389838">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="639" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599751037893" />
-    <state width="639" height="123" key="GridCell.Tab.0.right" timestamp="1599751037894">
+    <state width="1323" height="119" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599792389838" />
+    <state width="1323" height="119" key="GridCell.Tab.0.right" timestamp="1599792389838">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="639" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599751037894" />
+    <state width="1323" height="119" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599792389838" />
     <state width="1323" height="204" key="GridCell.Tab.1.bottom" timestamp="1599735002027">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -419,10 +427,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599532942889" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599646527716">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1599751621470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599646527716" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599751621470" />
     <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1599550020646">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -447,12 +455,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Test/Controllers/AuthController.cs</url>
-          <line>30</line>
-          <properties documentPath="C:\DFT\Test\Test\Controllers\AuthController.cs" initialLine="23" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Test/Data/DatingRepository.cs</url>
           <line>38</line>
