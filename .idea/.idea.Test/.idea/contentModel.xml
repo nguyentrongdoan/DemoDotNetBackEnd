@@ -37,6 +37,7 @@
           <e p="AutoMapperProfiles.cs" t="Include" />
           <e p="CloudinarySettings.cs" t="Include" />
           <e p="Extensions.cs" t="Include" />
+          <e p="LogUserActivity.cs" t="Include" />
         </e>
         <e p="Model" t="Include">
           <e p="Customer.cs" t="Include" />

@@ -38,6 +38,7 @@ namespace Test
             services.AddScoped<IDatingRepository, DatingRepository>();
             services.Configure<CloudinarySettings>(Configuration.GetSection("CloudinarySettings"));
 
+            
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {
@@ -51,6 +52,8 @@ namespace Test
                         ValidateAudience = false
                     };
                 });
+            
+            services.AddScoped<LogUserActivity>();
 
         }
 
