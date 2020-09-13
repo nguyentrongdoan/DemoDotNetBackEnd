@@ -1,0 +1,9 @@
+<changelist name="Uncommitted_changes_before_rebase_[Default_Changelist]3" date="1599877095159" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.Test/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]3/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before rebase [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Test/obj/Debug/netcoreapp3.1/Test.csprojAssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Test/obj/Debug/netcoreapp3.1/Test.csprojAssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.Test/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]3/Test.csprojAssemblyReference.cache" />
+  </binary>
+</changelist>
