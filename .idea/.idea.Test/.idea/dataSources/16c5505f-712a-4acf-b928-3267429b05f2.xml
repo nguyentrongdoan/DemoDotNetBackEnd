@@ -4602,7 +4602,23 @@ SELECT|sys.sys_config:null
       <Position>10</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <key id="1121" parent="364" name="PRIMARY">
+    <column id="1121" parent="364" name="gender">
+      <Position>11</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="1122" parent="364" name="knownas">
+      <Position>12</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="1123" parent="364" name="created">
+      <Position>13</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="1124" parent="364" name="lastactive">
+      <Position>14</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <key id="1125" parent="364" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
