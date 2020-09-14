@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Test.Helpers;
 using Test.Model;
 
 namespace Test.Data
@@ -29,11 +30,11 @@ namespace Test.Data
             return await _context.SaveChangesAsync() > 0;
         }
 
-        public async Task<IEnumerable<User>> GetUsers()
+        public async Task<PagedList<User>> GetUsers(UserParams userParams)
         {
-            var users = await _context.Users.Include(p => p.Photos).ToListAsync();
+            var users = _context.Users.Include(p => p.Photos);
             
-            return users;
+            return await PagedList<User>.CreateAsync(users, userParams.PageNumber, userParams.PageSize);
         }
 
         public async Task<User> GetUser(int id)
