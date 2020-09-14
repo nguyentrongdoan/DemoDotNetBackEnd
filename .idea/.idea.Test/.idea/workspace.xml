@@ -27,9 +27,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3c37c66-0bad-4a1b-a9e6-ccfe5a34c7e8" name="Default Changelist" comment="Implementing pagination in the API">
+    <list default="true" id="a3c37c66-0bad-4a1b-a9e6-ccfe5a34c7e8" name="Default Changelist" comment="Filtering in the API">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Controllers/UsersController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Data/DatingRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Data/DatingRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Helpers/UserParams.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Helpers/UserParams.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/netcoreapp3.1/Test.dll" afterDir="false" />
@@ -100,8 +99,8 @@
         <option value="$PROJECT_DIR$/Test/Helpers/PaginationHeader.cs" />
         <option value="$PROJECT_DIR$/Test/Data/IDatingRepository.cs" />
         <option value="$PROJECT_DIR$/Test/Helpers/Extensions.cs" />
-        <option value="$PROJECT_DIR$/Test/Helpers/UserParams.cs" />
         <option value="$PROJECT_DIR$/Test/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/Test/Helpers/UserParams.cs" />
         <option value="$PROJECT_DIR$/Test/Data/DatingRepository.cs" />
       </list>
     </option>
@@ -182,7 +181,7 @@
       <workItem from="1599808672672" duration="10498000" />
       <workItem from="1599877231873" duration="653000" />
       <workItem from="1599966296525" duration="8272000" />
-      <workItem from="1600047715846" duration="7037000" />
+      <workItem from="1600047715846" duration="10239000" />
     </task>
     <task id="LOCAL-00001" summary="cau hinh xu li loi trong Startup.cs">
       <created>1599452211628</created>
@@ -359,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600052295578</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Filtering in the API">
+      <created>1600057425035</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1600057425035</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +409,8 @@
     <MESSAGE value=" Using Action Filters" />
     <MESSAGE value="Setting up the paging helper classes" />
     <MESSAGE value="Implementing pagination in the API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing pagination in the API" />
+    <MESSAGE value="Filtering in the API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filtering in the API" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599318822882">
@@ -418,22 +425,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1599800457811" />
-    <state width="637" height="346" key="GridCell.Tab.0.bottom" timestamp="1600057356394">
+    <state width="639" height="350" key="GridCell.Tab.0.bottom" timestamp="1600066192933">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="346" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600057356394" />
-    <state width="637" height="346" key="GridCell.Tab.0.center" timestamp="1600057356394">
+    <state width="639" height="350" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600066192933" />
+    <state width="639" height="350" key="GridCell.Tab.0.center" timestamp="1600066192933">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="346" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600057356394" />
-    <state width="637" height="346" key="GridCell.Tab.0.left" timestamp="1600057356394">
+    <state width="639" height="350" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600066192933" />
+    <state width="639" height="350" key="GridCell.Tab.0.left" timestamp="1600066192933">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="346" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600057356394" />
-    <state width="637" height="346" key="GridCell.Tab.0.right" timestamp="1600057356394">
+    <state width="639" height="350" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600066192933" />
+    <state width="639" height="350" key="GridCell.Tab.0.right" timestamp="1600066192933">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="346" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600057356394" />
+    <state width="639" height="350" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600066192933" />
     <state width="637" height="201" key="GridCell.Tab.1.bottom" timestamp="1600052311377">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
